@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
 import android.widget.TextView;
 
 
@@ -16,6 +17,8 @@ public class MainActivity extends ActionBarActivity {
 
 		TextView tv = (TextView) findViewById(R.id.hello_view);
 		tv.setText("Hello world");
+
+		Button button;
 
 	}
 
